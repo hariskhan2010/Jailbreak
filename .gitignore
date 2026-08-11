@@ -1,0 +1,28 @@
+# Secrets
+.env
+.env.local
+*.env
+!*.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+backend/_*.log
+backend/_*.err.log
+backend/debug_glm.py
+backend/debug_out.txt
+backend/admin1.txt
+backend/*.txt
+backend/login_chunk.js
+backend/test_login_app.py
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
