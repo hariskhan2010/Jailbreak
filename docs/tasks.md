@@ -40,7 +40,11 @@ Legend: `[x]` done & tested · `[ ]` pending
 - [x] Manual E2E: create run → stream → report
 
 ## Phase 5 — Deployment
-- [ ] Render backend + env vars
-- [ ] Vercel frontend + env vars
-- [ ] CORS + HTTPS
-- [ ] Verify live run + report in production
+- [x] backend/Procfile + runtime.txt + render.yaml blueprint prepared
+- [x] CORS env-configurable (`ALLOWED_ORIGINS`) in main.py
+- [x] Git repo initialized + pushed → https://github.com/hariskhan2010/Jailbreak (master)
+- [x] Supabase RLS ready (anon read, service-role write)
+- [x] Deployment guide written → docs/deployment-guide.md
+- [ ] Render web service created + env vars set (manual dashboard)
+- [ ] Vercel project created + env vars set (manual dashboard)
+- [ ] Verify live run + report in production (manual)
